@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # 載入模型
-model = YOLO("train4\\weights\\best.pt")
+model = YOLO("train5\\weights\\best.pt")
 
 # 嘗試轉換為 TFLite (使用 TensorFlow Lite 轉換)
 try:
