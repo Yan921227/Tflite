@@ -1,0 +1,23 @@
+description: Ultralytics YOLO11n model trained on -----Basic high voltage.v1i.yolov11\data.yaml
+author: Ultralytics
+date: '2025-12-18T16:56:50.504914'
+version: 8.3.233
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: backswing
+  1: impact
+  2: ready
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
